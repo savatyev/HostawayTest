@@ -1,0 +1,76 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 6,
+        "passed" : 6,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1547815191436,
+        "stop" : 1547815348154,
+        "duration" : 156718
+      }
+    },
+    "defects" : {
+      "totalCount" : 0,
+      "items" : [ ]
+    },
+    "xunit" : {
+      "totalCount" : 3,
+      "items" : [ {
+        "uid" : "a7d8b44e6fb115e1",
+        "title" : "Suite : TestChrome[browser=chrome]",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "85bc00706ec6af44",
+        "title" : "Suite : TestFirefox[browser=firefox]",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "b2e09c31941ea29e",
+        "title" : "Suite : TestIE[browser=ie]",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Without feature",
+        "statistic" : {
+          "total" : 6,
+          "passed" : 6,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

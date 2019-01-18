@@ -1,0 +1,59 @@
+{
+  "uid" : "53f3dc6647516484",
+  "name" : "userCreationTest",
+  "title" : "User creation test",
+  "time" : {
+    "start" : 1547815335288,
+    "stop" : 1547815345741,
+    "duration" : 10453
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "85bc00706ec6af44",
+    "name" : "Suite : TestFirefox[browser=firefox]",
+    "title" : "Suite : TestFirefox[browser=firefox]"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "PC"
+  }, {
+    "name" : "testGroup",
+    "value" : "TestFirefox"
+  }, {
+    "name" : "testMethod",
+    "value" : "userCreationTest"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : TestFirefox[browser=firefox]"
+  }, {
+    "name" : "thread",
+    "value" : "984@PC.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : TestFirefox[browser=firefox]"
+  }, {
+    "name" : "testClass",
+    "value" : "CreateUpdateUserTest"
+  } ],
+  "parameters" : [ ]
+}

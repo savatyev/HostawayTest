@@ -1,0 +1,59 @@
+{
+  "uid" : "2ba79044f511be74",
+  "name" : "editUserTest",
+  "title" : "Edit user test",
+  "time" : {
+    "start" : 1547815345745,
+    "stop" : 1547815348154,
+    "duration" : 2409
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "85bc00706ec6af44",
+    "name" : "Suite : TestFirefox[browser=firefox]",
+    "title" : "Suite : TestFirefox[browser=firefox]"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testMethod",
+    "value" : "editUserTest"
+  }, {
+    "name" : "host",
+    "value" : "PC"
+  }, {
+    "name" : "testGroup",
+    "value" : "TestFirefox"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : TestFirefox[browser=firefox]"
+  }, {
+    "name" : "thread",
+    "value" : "984@PC.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : TestFirefox[browser=firefox]"
+  }, {
+    "name" : "testClass",
+    "value" : "CreateUpdateUserTest"
+  } ],
+  "parameters" : [ ]
+}

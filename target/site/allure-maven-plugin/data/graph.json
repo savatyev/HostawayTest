@@ -1,0 +1,69 @@
+{
+  "testCases" : [ {
+    "uid" : "53f3dc6647516484",
+    "name" : "userCreationTest",
+    "title" : "User creation test",
+    "time" : {
+      "start" : 1547815335288,
+      "stop" : 1547815345741,
+      "duration" : 10453
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "2ba79044f511be74",
+    "name" : "editUserTest",
+    "title" : "Edit user test",
+    "time" : {
+      "start" : 1547815345745,
+      "stop" : 1547815348154,
+      "duration" : 2409
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "77011a23c18b615b",
+    "name" : "userCreationTest",
+    "title" : "User creation test",
+    "time" : {
+      "start" : 1547815191436,
+      "stop" : 1547815217368,
+      "duration" : 25932
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "59f0cae0d9b541c0",
+    "name" : "editUserTest",
+    "title" : "Edit user test",
+    "time" : {
+      "start" : 1547815217376,
+      "stop" : 1547815227240,
+      "duration" : 9864
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "20c5e3c27aeeeab2",
+    "name" : "userCreationTest",
+    "title" : "User creation test",
+    "time" : {
+      "start" : 1547815273323,
+      "stop" : 1547815282485,
+      "duration" : 9162
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7fdd577977012f31",
+    "name" : "editUserTest",
+    "title" : "Edit user test",
+    "time" : {
+      "start" : 1547815282488,
+      "stop" : 1547815284886,
+      "duration" : 2398
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

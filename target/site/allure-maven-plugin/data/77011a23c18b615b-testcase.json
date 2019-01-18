@@ -1,0 +1,59 @@
+{
+  "uid" : "77011a23c18b615b",
+  "name" : "userCreationTest",
+  "title" : "User creation test",
+  "time" : {
+    "start" : 1547815191436,
+    "stop" : 1547815217368,
+    "duration" : 25932
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "b2e09c31941ea29e",
+    "name" : "Suite : TestIE[browser=ie]",
+    "title" : "Suite : TestIE[browser=ie]"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "PC"
+  }, {
+    "name" : "testMethod",
+    "value" : "userCreationTest"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : TestIE[browser=ie]"
+  }, {
+    "name" : "testGroup",
+    "value" : "TestIE"
+  }, {
+    "name" : "thread",
+    "value" : "984@PC.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : TestIE[browser=ie]"
+  }, {
+    "name" : "testClass",
+    "value" : "CreateUpdateUserTest"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "20c5e3c27aeeeab2",
+  "name" : "userCreationTest",
+  "title" : "User creation test",
+  "time" : {
+    "start" : 1547815273323,
+    "stop" : 1547815282485,
+    "duration" : 9162
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "a7d8b44e6fb115e1",
+    "name" : "Suite : TestChrome[browser=chrome]",
+    "title" : "Suite : TestChrome[browser=chrome]"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Suite : TestChrome[browser=chrome]"
+  }, {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "PC"
+  }, {
+    "name" : "testMethod",
+    "value" : "userCreationTest"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "TestChrome"
+  }, {
+    "name" : "thread",
+    "value" : "984@PC.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : TestChrome[browser=chrome]"
+  }, {
+    "name" : "testClass",
+    "value" : "CreateUpdateUserTest"
+  } ],
+  "parameters" : [ ]
+}
