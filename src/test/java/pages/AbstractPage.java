@@ -1,13 +1,23 @@
 package pages;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
+
+import utils.PropertyLoader;
 
 public abstract class AbstractPage {
 
     protected WebDriver driver;
+    protected String envUrl;
 
     public AbstractPage(WebDriver driver) {
         this.driver = driver;
+        try {
+            this.envUrl = PropertyLoader.loadProperty("env.url");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public AbstractPage open(String Url) {

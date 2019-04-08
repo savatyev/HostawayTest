@@ -18,7 +18,7 @@ public class LoginPage extends AbstractPage {
     @FindBy(xpath = "//button[@type='submit']")
     private WebElement submitLoginBtn;
 
-    private static final String LOGIN_PAGE_URL = "https://dashboard.hostaway.com/login";
+    private final String LOGIN_PAGE_URL = envUrl + "login";
 
     public LoginPage(WebDriver driver) {
         super(driver);

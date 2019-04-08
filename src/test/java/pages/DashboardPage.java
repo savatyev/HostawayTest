@@ -16,7 +16,7 @@ public class DashboardPage extends AbstractPage {
     @FindBy(xpath = "//a[@href='/users-management']")
     protected WebElement userManagementMenu;
 
-    private static final String USER_MANAG_URL = "https://dashboard.hostaway.com/users-management";
+    private final String USER_MANAG_URL = envUrl + "users-management";
 
     public DashboardPage(WebDriver driver) {
         super(driver);
@@ -31,10 +31,6 @@ public class DashboardPage extends AbstractPage {
 
     public UserManagementPage navigateToUserManagement() {
         driver.get(USER_MANAG_URL);
-        /*final Wait<WebDriver> wait = new WebDriverWait(driver, 10, 200);
-        wait.until(ExpectedConditions.elementToBeClickable(userManagementMenu));
-        userManagementMenu.click();
-        */
         return PageFactory.initElements(driver, UserManagementPage.class);
     }
 }

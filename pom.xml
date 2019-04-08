@@ -11,6 +11,18 @@
         <aspectj.version>1.9.2</aspectj.version>
         <settings.localRepository>${user.home}/.m2/repository</settings.localRepository>
     </properties>
+    
+    <profiles>
+        <profile>
+            <id>prod</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <env.url>https://dashboard.hostaway.com/</env.url>
+            </properties>
+        </profile>
+    </profiles>
 
     <dependencies>
         <dependency>
@@ -47,6 +59,9 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <systemPropertyVariables>
+                        <application.properties>/application.properties</application.properties>
+                    </systemPropertyVariables>
                     <testFailureIgnore>true</testFailureIgnore>
                     <properties>
                         <property>

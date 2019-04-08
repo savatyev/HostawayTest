@@ -2,3 +2,11 @@
 .idea/
 *.iml
 *.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Results
+target/
